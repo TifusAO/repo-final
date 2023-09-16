@@ -1,0 +1,26 @@
+@import "./components/Block-1/_Block-1.scss";
+@import "./components/Block-2/_Block-2.scss";
+@import "./components/Block-3/_Block-3.scss";
+@import "./components/Block-4/Block-4";
+@import "./components/Block-5/Block-5";
+@import "./components/Block-6/Block-6";
+
+main{
+    background: linear-gradient(177deg, #050301 -30.15%, #120A01 92.85%);
+}
+
+main p{
+    color: aliceblue;
+}
+
+main h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 26px;
+
+}
+
+main a{
+    text-decoration: none;
+    color: aliceblue;
+}

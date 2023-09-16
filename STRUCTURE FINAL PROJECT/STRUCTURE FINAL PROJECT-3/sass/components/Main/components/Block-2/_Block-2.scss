@@ -1,0 +1,48 @@
+.block-2{
+    margin: 0 5% 0 5%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    margin-bottom: 190px;
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.block-2-header p:first-child{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 180.5%;
+    margin-bottom: 12px;
+}
+
+.block-2-header p:nth-child(2){
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 187.5%;
+    margin-bottom: 28px;
+}
+
+
+
+.block-2-main li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.block-2-main img{
+    margin-right: 10px;
+}
+
+
+@media screen and (max-width:950px) {
+    iframe{
+        width: auto;
+        height: 315px;
+    }
+    
+}

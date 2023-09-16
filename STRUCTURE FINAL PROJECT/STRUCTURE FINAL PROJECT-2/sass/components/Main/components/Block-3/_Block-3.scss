@@ -1,0 +1,39 @@
+.block-3{
+    display: flex;
+    padding: 113px 5% 0 5%;
+    background-color: #1C140F;
+    gap: 10%;
+}
+
+.block-3-img img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.block-3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.block-3-text p:first-child{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 202.5%;
+    margin-bottom: 14px;
+}
+
+.block-3-text p:nth-child(2){
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 157.5%;
+    margin-bottom: 14px;
+}
+
+.block-3-text p:nth-child(3){
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 202.5%;
+    margin-bottom: 100px;
+}

@@ -1,0 +1,121 @@
+main{
+    background-color: black;
+}
+
+main div:first-child{
+ margin-bottom: 400px;
+ overflow: hidden;
+}
+
+main div:first-child section:first-child {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 25px;
+    margin-top: 100px;
+    width: 40%;
+    display: block
+}
+
+
+
+main div:first-child section:first-child p:first-child{
+    color: #FA9021;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+main div:first-child section:first-child section{
+    display: inline;
+    z-index: 2;
+
+}
+
+main p{
+    color: aliceblue;
+}
+
+main h1{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 26px;
+
+}
+
+
+
+
+main div:first-child section:first-child nav a{
+    color: aliceblue;
+    background-color: #FA9021;
+    padding: 15px 30px 0px 30px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+main div:first-child section:nth-child(2){
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+}
+
+main div:first-child section:nth-child(2) div{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    top: 5%;
+    right: 30%;
+}
+
+main div:first-child section:nth-child(2) div img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+main div:first-child section:nth-child(2) div p{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+
+main div:first-child section:nth-child(2) img:nth-child(2){
+    height: 100px;
+    position: absolute;
+    top: 1%;
+    right: 20%;
+}
+
+main div:first-child section:nth-child(2) img:nth-child(3){
+    height: 65px;
+    position: absolute;
+    top: 3%;
+    right: 7%;
+}
+
+main div:first-child section:nth-child(2) img:nth-child(4){
+    position: absolute;
+    top: 0%;
+    right: -10%;
+    height: 700px;
+    width: 600px;
+    
+}
+
+
+@media screen and (max-width:1300px) {
+    
+    main div:first-child section:first-child {
+        width: 25%;
+    }
+
+    main div:first-child section:nth-child(2) img:nth-child(4){
+        right: -20%;
+    }
+}
